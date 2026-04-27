@@ -57,7 +57,7 @@ async def broadcast_event(event_type: str, data: dict):
     for client in clients:
         await client.put(message)
 
-def process_sensor_data(data: SensorData):
+async def process_sensor_data(data: SensorData):
     vals = data.values
     vibration_features = np.array([
         vals.get("peak_freq", 200),
@@ -106,9 +106,9 @@ def process_sensor_data(data: SensorData):
         if len(recent_alerts) > 50:
             recent_alerts.pop()
             
-        asyncio.run(broadcast_event("new_alert", alert))
+        await broadcast_event("new_alert", alert)
         
-    asyncio.run(broadcast_event("track_update", track_data))
+    await broadcast_event("track_update", track_data)
 
 @app.post("/api/v1/sensor-data")
 async def receive_sensor_data(data: SensorData, background_tasks: BackgroundTasks):

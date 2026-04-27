@@ -1,8 +1,9 @@
 fastapi
-uvicorn
+uvicorn[standard]
 scikit-learn
 numpy
 pandas
 pydantic
 sse-starlette
-opencv-stubs
+opencv-python-headless
+python-multipart
