@@ -171,7 +171,7 @@ Pull requests welcome for:
 
 ### 👨‍💻 Author
 **Dharmesh Vekaria**  
-Anand, Gujarat · 2025–2026
+Gandhinagar, Gujarat ' 2026
 
 *Focused on national infrastructure safety & modern AI-driven threat detection.*
 
