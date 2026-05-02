@@ -1,11 +1,11 @@
-# Railrakshak AI 🛡️
+# Railrakshak
 ## Behavioral Anomaly & Fracture Detection Suite
 **National Railway Safety & Predictive Infrastructure Platform**  
 *AI-Driven (Computer Vision + Time-Series Forecasting) — Zero Manual Inspection Dependency*
 
 ---
 
-### 📌 What is Railrakshak AI?
+### 📌 What is Railrakshak?
 **Railrakshak AI** is a privacy-focused, mission-critical infrastructure tool that detects railway track fractures, sensor anomalies, and operational risks through behavioral AI analysis instead of scheduled manual checks.
 
 It learns the "normal" vibrational and visual patterns of a healthy track network and flags unusual patterns such as:
